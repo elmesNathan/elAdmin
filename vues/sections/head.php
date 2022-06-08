@@ -28,7 +28,7 @@
   <link href="vues/assets/css/style.css" rel="stylesheet">
   <link href="vues/assets/css/style-responsive.css" rel="stylesheet">
   <script src="vues/assets/lib/chart-master/Chart.js"></script>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <!-- =======================================================
     Template Name: Dashio
     Template URL: https://templatemag.com/dashio-bootstrap-admin-template/

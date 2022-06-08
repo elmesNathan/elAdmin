@@ -47,36 +47,55 @@
                         <table class="table table-striped table-advance table-hover">
                           <thead>
                             <tr>
-                              <th><i class="fa fa-bullhorn"></i> Company</th>
-                              <th class="hidden-phone"><i class="fa fa-question-circle"></i> Descrition</th>
-                              <th><i class="fa fa-bookmark"></i> Profit</th>
-                              <th><i class=" fa fa-edit"></i> Status</th>
+                              <th><i class="fa fa-calendar"></i> Date de récharge</th>
+                              <th class="hidden-phone"><i class="fa fa-question-circle"></i> Preuve</th>
+                              <th><i class="fa fa-bookmark"></i> Montant</th>
+                              <th><i class=" fa fa-edit"></i> Bénéficiaire</th>
                             </tr>
                           </thead>
                           <tbody>
+                            <!--//<?php 
+                            //foreach ($recharges_non_confirmer as $key => $value) {
+                            //  if ($key == "date_recharge") {
+                            //    $date_rech = $value;
+                            //  }elseif ($key == "CDF_Ref") {
+                            //    $preuve = $value;
+                            //  }elseif ($key == "montant") {
+                             //   $montant = $value;
+                            //  }else{
+                            ?>-->
                             <tr>
                               <td>
-                                <a href="basic_table.html#">Company Ltd</a>
+                                <a href="basic_table.html#"><?= //$date_rech; ?></a>
                               </td>
-                              <td class="hidden-phone">Lorem Ipsum dolor</td>
-                              <td>12000.00$ </td>
-                              <td><span class="label label-danger label-mini">Due</span></td>
+                              <td class="hidden-phone"><?= //$preuve; ?></td>
+                              <td><?= //$montant; ?></td>
+                              <td><?= //$value; ?></td>
                             </tr>
+                            <?php    
+                            //  }
+                            //}
+                            ?>
                           </tbody>
                         </table>
                       </div>
                       <!-- /col-md-12 -->
+                      <script>
+                        
+                      </script>
                       <?php
+                      //Suppression du fichier JSON 
+
                       }elseif ($compte == "Auteur" AND !($pseudo == "admin")) {
                       ?>
                       <div class="col-md-12">
                         <table class="table table-striped table-advance table-hover">
                           <thead>
                             <tr>
-                              <th><i class="fa fa-bullhorn"></i> Company</th>
-                              <th class="hidden-phone"><i class="fa fa-question-circle"></i> Descrition</th>
-                              <th><i class="fa fa-bookmark"></i> Profit</th>
-                              <th><i class=" fa fa-edit"></i> Status</th>
+                              <th><i class="fa fa-calendar"></i> Date de récharge</th>
+                              <th class="hidden-phone"><i class="fa fa-question-circle"></i> Preuve</th>
+                              <th><i class="fa fa-bookmark"></i> Montant</th>
+                              <th><i class=" fa fa-edit"></i> Bénéficiaire</th>
                             </tr>
                           </thead>
                           <tbody>
@@ -101,11 +120,10 @@
                         <table class="table table-striped table-advance table-hover">
                           <thead>
                             <tr>
-                              <th><i class="fa fa-bullhorn"></i> Company</th>
-                              <th class="hidden-phone"><i class="fa fa-question-circle"></i> Descrition</th>
-                              <th><i class="fa fa-bookmark"></i> Profit</th>
-                              <th><i class=" fa fa-edit"></i> Status</th>
-                              <th></th>
+                              <th><i class="fa fa-calendar"></i> Date de récharge</th>
+                              <th class="hidden-phone"><i class="fa fa-question-circle"></i> Preuve</th>
+                              <th><i class="fa fa-bookmark"></i> Montant</th>
+                              <th><i class=" fa fa-edit"></i> Bénéficiaire</th>
                             </tr>
                           </thead>
                           <tbody>
@@ -140,10 +158,10 @@
                         <table class="table table-striped table-advance table-hover">
                           <thead>
                             <tr>
-                              <th><i class="fa fa-bullhorn"></i> Company</th>
-                              <th class="hidden-phone"><i class="fa fa-question-circle"></i> Descrition</th>
-                              <th><i class="fa fa-bookmark"></i> Profit</th>
-                              <th><i class=" fa fa-edit"></i> Status</th>
+                              <th><i class="fa fa-calendar"></i> Date de récharge</th>
+                              <th class="hidden-phone"><i class="fa fa-question-circle"></i> Preuve</th>
+                              <th><i class="fa fa-bookmark"></i> Montant</th>
+                              <th><i class=" fa fa-edit"></i> Bénéficiaire</th>
                             </tr>
                           </thead>
                           <tbody>
@@ -166,10 +184,10 @@
                         <table class="table table-striped table-advance table-hover">
                           <thead>
                             <tr>
-                              <th><i class="fa fa-bullhorn"></i> Company</th>
-                              <th class="hidden-phone"><i class="fa fa-question-circle"></i> Descrition</th>
-                              <th><i class="fa fa-bookmark"></i> Profit</th>
-                              <th><i class=" fa fa-edit"></i> Status</th>
+                              <th><i class="fa fa-calendar"></i> Date de récharge</th>
+                              <th class="hidden-phone"><i class="fa fa-question-circle"></i> Preuve</th>
+                              <th><i class="fa fa-bookmark"></i> Montant</th>
+                              <th><i class=" fa fa-edit"></i> Bénéficiaire</th>
                             </tr>
                           </thead>
                           <tbody>
@@ -194,11 +212,10 @@
                         <table class="table table-striped table-advance table-hover">
                           <thead>
                             <tr>
-                              <th><i class="fa fa-bullhorn"></i> Company</th>
-                              <th class="hidden-phone"><i class="fa fa-question-circle"></i> Descrition</th>
-                              <th><i class="fa fa-bookmark"></i> Profit</th>
-                              <th><i class=" fa fa-edit"></i> Status</th>
-                              <th></th>
+                              <th><i class="fa fa-calendar"></i> Date de récharge</th>
+                              <th class="hidden-phone"><i class="fa fa-question-circle"></i> Preuve</th>
+                              <th><i class="fa fa-bookmark"></i> Montant</th>
+                              <th><i class=" fa fa-edit"></i> Bénéficiaire</th>
                             </tr>
                           </thead>
                           <tbody>

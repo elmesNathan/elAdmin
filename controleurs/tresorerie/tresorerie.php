@@ -8,8 +8,8 @@ include_once 'models/tresorerie/all_lignes_facture.php';
 include_once 'models/tresorerie/compt_ouvrages.php';
 include_once 'models/tresorerie/compt_tot_ouvrages.php';
 include_once 'models/tresorerie/all_operations.php';
-include_once 'models/tresorerie/recharges_non_confirme.php';
-include_once 'models/tresorerie/recharge_confirme.php';
+include_once 'models/tresorerie/recharges_non_confirmer.php';
+//include_once 'models/tresorerie/recharges_confirmer.php';
 
 //TRAITEMENT DE LA PAGE
 $compte = $_SESSION['compte'];
@@ -34,13 +34,13 @@ if (date("m") < 7) {
 $data_graphique = coordonnees_graphique($compte, $pseudo, $offset, $bdd);
 
 
-//Traitement Lecture
+//Système bancaire
 if ($compte == "Client") {
-	$recharges_non_confirme = recharcge_confirme($data_user[id], $bdd);
-	$recharges_confirme = recharge_non_confirme($data_user[id], $bdd);
+	//$recharges_non_confirmer = recharges_non_confirmer($data_user[id], $bdd);
+	//$recharges_confirmer = recharges_confirmer($data_user[id], $bdd);
 } else {
-	$paiements_disponibles = paiements_disponibles($data_user[id], $bdd);
-	$paiements_anterieurs = paiements_anterieurs($data_user[id], $bdd);
+//	$paiements_disponibles = paiements_disponibles($data_user[id], $bdd);
+//	$paiements_anterieurs = paiements_anterieurs($data_user[id], $bdd);
 }
 
 
